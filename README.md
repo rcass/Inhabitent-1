@@ -17,7 +17,9 @@
 - [Learning](#learning)
 - [Notes](#notes)
 - [Links](#links)
+- [License](#license)
 - [Contributor](#contributor)
+
 
 
 ## Tools/Languages
@@ -65,6 +67,12 @@ $table_prefix  = 'inhabitent_';
 
 
 [test]: http://google.com/ "Google"
+
+## License
+
+Copyright (c) 2017 Alex Paydarfar
+
+Licensed under the MIT license.
 
 ## Contributor 👫
 
