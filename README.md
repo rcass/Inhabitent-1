@@ -17,7 +17,9 @@
 - [Learning](#learning)
 - [Notes](#notes)
 - [Links](#links)
+- [License](#license)
 - [Contributor](#contributor)
+
 
 
 ## Tools/Languages
@@ -40,7 +42,7 @@
 - [x] Understaind Wordpress themes how to to select one based on user and client expectations
 - [x] Wordpress plugins and their relevance to a particular website
 - [x] Better understainding of git and github VCS
-- [x] understaind the difference between filters and actions and hooks
+- [x] understanding the difference between filters, actions and hooks
 
 ## Notes 📁
 
@@ -65,6 +67,12 @@ $table_prefix  = 'inhabitent_';
 
 
 [test]: http://google.com/ "Google"
+
+## License
+
+Copyright (c) 2017 Alex Paydarfar
+
+Licensed under the MIT license.
 
 ## Contributor 👫
 
