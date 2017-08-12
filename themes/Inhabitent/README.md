@@ -14,11 +14,10 @@
 ## ⭐️ Table of Content ⭐️
 
 - [Tools/Languages](#tools-and-languagges-used)
-- [Learning](#Learning)
+- [Learning](#learning)
+- [Notes](#notes)
 - [Links](#links)
-- [Notes](#Notes)
-- [Links](#Links)
-- [Contributor](#Contributor)
+- [Contributor](#contributor)
 
 
 ## Tools/Languages
