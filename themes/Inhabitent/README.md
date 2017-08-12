@@ -1,21 +1,9 @@
-# RED Starter
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
+# Inhabitent Wordpress website
 
-## Installation
+## Camping website to showcase various camping products and articles for camping enthusiasts.
 
-### 1. Download me (don't clone me!)
+![screen shot 2017-08-12 at 10 32 49 am](https://user-images.githubusercontent.com/23155719/29242974-b638d75a-7f49-11e7-9b19-20e260c19493.png)
 
-Then add me to your `wp-content` directory.
 
-### 2. Rename the `redstarter` directory
 
-Make sure that the theme directory name is project appropriate!
-
-### 3. Install the dev dependencies
-
-Next you'll need to run `npm install` **inside your theme directory** next to install the node modules you'll need for Gulp, etc.
-
-### 4. Update the proxy in `gulpfile.js`
-
-Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Browsersync proxy (so change `inhabitent.dev` to the appropriate localhost URL).
