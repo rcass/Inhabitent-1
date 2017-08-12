@@ -1,7 +1,7 @@
 
 # Inhabitent Wordpress Website 
 
-   [![Codecov](https://img.shields.io/codecov/c/github/alex-paydarfar/Inhabitent.svg)](https://github.com/Alex-Paydarfar/Inhabitent)
+   [![](https://img.shields.io/codecov/c/github/alex-paydarfar/Inhabitent.svg)](https://github.com/Alex-Paydarfar/Inhabitent)
    [![npm](https://img.shields.io/npm/v/npm.svg)](https://github.com/Alex-Paydarfar/Inhabitent)
 
 
