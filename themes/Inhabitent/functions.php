@@ -47,7 +47,7 @@ add_action( 'after_setup_theme', 'red_starter_setup' );
 function red_starter_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'red_starter_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'red_starter_content_width', 0 );
+add_action( 'after_setup_theme', 'red_starter_content_width', 1120 );
 
 /**
  * Register widget area.
@@ -83,7 +83,7 @@ add_filter( 'stylesheet_uri', 'red_starter_minified_css', 10, 2 );
  * Enqueue scripts and styles.
  */
 function red_starter_scripts() {
-	wp_enqueue_script( 'font-awsome','https://use.fontawesome.com/3a9bf8ab8c.js', array(), '4.7.0', false );
+	wp_enqueue_script( 'font-awsome-cdn','https://use.fontawesome.com/3a9bf8ab8c.js', array(), '4.7.0');
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
 	
 	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true );
