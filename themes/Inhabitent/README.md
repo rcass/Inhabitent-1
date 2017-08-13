@@ -16,6 +16,7 @@
 - [Tools/Languages](#tools-and-languagges-used)
 - [Learning](#learning)
 - [Notes](#notes)
+- [Screenshots](#screenshots)
 - [Links](#links)
 - [License](#license)
 - [Contributor](#contributor)
@@ -31,7 +32,7 @@
 | Javascript   | VS Code | Theme Check       |
 
 
-![wordpress](https://user-images.githubusercontent.com/23155719/29244076-45b63dae-7f64-11e7-99bb-79dd2e218e94.png)![sass](https://user-images.githubusercontent.com/23155719/29244102-d6bea91c-7f64-11e7-968a-821cb88008e5.png) ![sql](https://user-images.githubusercontent.com/23155719/29246181-acba20a0-7fa6-11e7-8095-96d90a9d4647.png) ![gulp](https://user-images.githubusercontent.com/23155719/29246291-8f08e5ca-7fa9-11e7-8859-447e1e7f219c.png)
+![wordpress](https://user-images.githubusercontent.com/23155719/29244076-45b63dae-7f64-11e7-99bb-79dd2e218e94.png)![sass](https://user-images.githubusercontent.com/23155719/29244102-d6bea91c-7f64-11e7-968a-821cb88008e5.png) ![sql](https://user-images.githubusercontent.com/23155719/29246181-acba20a0-7fa6-11e7-8095-96d90a9d4647.png) 
 
 ## Learning :book:
 
