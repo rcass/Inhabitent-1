@@ -37,10 +37,10 @@
 - [x] PHP integration in Wordpress core and how it translates into user experience.
 - [x] Integrating gulp toolkit with Wordpress.
 - [x] comprehending Wordpress graphical user interface and it's applications 
-- [x] Understaind Wordpress themes how to to select one based on user and client expectations
+- [x] Understanding Wordpress themes how to to select one based on user and client expectations
 - [x] Wordpress plugins and their relevance to a particular website
-- [x] Better understainding of git and github VCS
-- [x] understaind the difference between filters and actions and hooks
+- [x] Better understanding of git and github VCS
+- [x] understanding the difference between filters and actions and hooks
 
 ## Notes 📁
 
@@ -65,6 +65,12 @@ $table_prefix  = 'inhabitent_';
 
 
 [test]: http://google.com/ "Google"
+
+## License
+
+Copyright (c) 2017 Alex Paydarfar
+
+Licensed under the MIT license.
 
 ## Contributor 👫
 
