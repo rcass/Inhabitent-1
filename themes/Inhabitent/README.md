@@ -1,5 +1,5 @@
 
-# Inhabitent Wordpress Website 
+ # Inhabitent Wordpress Website :leaves:
 
    [![](https://img.shields.io/codecov/c/github/alex-paydarfar/Inhabitent.svg)](https://github.com/Alex-Paydarfar/Inhabitent)
    [![npm](https://img.shields.io/npm/v/npm.svg)](https://github.com/Alex-Paydarfar/Inhabitent)
@@ -21,19 +21,19 @@
 - [Contributor](#contributor)
 
 
-## Tools/Languages
+## Tools/Languages :computer:
 
-| Languages        | Tools          
-| ------------- |:-------------:| 
-| PHP      | SCSS | 
-| HTML      | Gulp      |   
-| CSS | Wordpress      |  
-| Javascript   | VS Code |
+| Languages        | Tools      | Plugins    
+| ------------- |:-------------:|:-------------:| 
+| PHP      | SCSS | Contact Form 7           |
+| HTML      | Gulp      | Debug Bar          | 
+| CSS | Wordpress      | Query Monitor       |
+| Javascript   | VS Code | Theme Check       |
 
 
-![wordpress](https://user-images.githubusercontent.com/23155719/29244076-45b63dae-7f64-11e7-99bb-79dd2e218e94.png)![sass](https://user-images.githubusercontent.com/23155719/29244102-d6bea91c-7f64-11e7-968a-821cb88008e5.png) ![sql](https://user-images.githubusercontent.com/23155719/29246181-acba20a0-7fa6-11e7-8095-96d90a9d4647.png) ![gulp](https://user-images.githubusercontent.com/23155719/29246242-641c41b4-7fa8-11e7-8c2b-80827c091837.png)
+![wordpress](https://user-images.githubusercontent.com/23155719/29244076-45b63dae-7f64-11e7-99bb-79dd2e218e94.png)![sass](https://user-images.githubusercontent.com/23155719/29244102-d6bea91c-7f64-11e7-968a-821cb88008e5.png) ![sql](https://user-images.githubusercontent.com/23155719/29246181-acba20a0-7fa6-11e7-8095-96d90a9d4647.png) ![gulp](https://user-images.githubusercontent.com/23155719/29246291-8f08e5ca-7fa9-11e7-8859-447e1e7f219c.png)
 
-## Learning
+## Learning :book:
 
 - [x] PHP integration in Wordpress core and how it translates into user experience.
 - [x] Integrating gulp toolkit with Wordpress.
@@ -52,7 +52,15 @@ define('WP_DEBUG', true);
 $table_prefix  = 'inhabitent_';
 ```
 
-## Links
+## Screenshots :camera:
+
+![screen shot 2017-08-12 at 10 21 45 pm](https://user-images.githubusercontent.com/23155719/29246395-63e60a90-7fad-11e7-8c0f-c7829cfcdcce.png) | ![screen shot 2017-08-12 at 10 22 33 pm](https://user-images.githubusercontent.com/23155719/29246396-77934832-7fad-11e7-9184-dd87adae83e2.png)
+------------ | -------------
+![screen shot 2017-08-12 at 10 23 21 pm](https://user-images.githubusercontent.com/23155719/29246398-8226cd00-7fad-11e7-98bb-b7f8c75dd34d.png) | ![screen shot 2017-08-12 at 10 25 11 pm](https://user-images.githubusercontent.com/23155719/29246399-8dc0b96e-7fad-11e7-8125-4956078ab16c.png)
+
+
+
+## Links :link:
 
 [www.PHP.net](http://php.net/manual/en/intro-whatis.php)
 
@@ -67,13 +75,13 @@ $table_prefix  = 'inhabitent_';
 
 [test]: http://google.com/ "Google"
 
-## License
+## License :closed_lock_with_key:
 
 Copyright (c) 2017 Alex Paydarfar
 
 Licensed under the MIT license.
 
-## Contributor 👫
+## Contributor :guardsman:
 
 ![mygit](https://user-images.githubusercontent.com/23155719/29243938-ca157672-7f60-11e7-8d5c-eeacda0e34d9.jpg)
 Alex Paydarfar | 
