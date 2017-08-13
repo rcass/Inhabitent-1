@@ -17,6 +17,7 @@
 - [Learning](#learning)
 - [Notes](#notes)
 - [Links](#links)
+- [License](#license)
 - [Contributor](#contributor)
 
 
@@ -30,7 +31,7 @@
 | Javascript   | VS Code |
 
 
-![wordpress](https://user-images.githubusercontent.com/23155719/29244076-45b63dae-7f64-11e7-99bb-79dd2e218e94.png)![sass](https://user-images.githubusercontent.com/23155719/29244102-d6bea91c-7f64-11e7-968a-821cb88008e5.png)
+![wordpress](https://user-images.githubusercontent.com/23155719/29244076-45b63dae-7f64-11e7-99bb-79dd2e218e94.png)![sass](https://user-images.githubusercontent.com/23155719/29244102-d6bea91c-7f64-11e7-968a-821cb88008e5.png) ![sql](https://user-images.githubusercontent.com/23155719/29246181-acba20a0-7fa6-11e7-8095-96d90a9d4647.png) ![gulp](https://user-images.githubusercontent.com/23155719/29246242-641c41b4-7fa8-11e7-8c2b-80827c091837.png)
 
 ## Learning
 
