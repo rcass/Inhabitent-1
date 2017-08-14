@@ -710,11 +710,21 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+body, html {
+  background: url(../../images/home-hero.jpg); }
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+footer {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-direction: row;
+      flex-direction: row; }
+
 .site-footer {
-  background-color: blue;
+  background: url("../../images/dark-wood.png");
   bottom: 0;
   width: 100%;
   height: 45%;
@@ -722,4 +732,17 @@ object {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
-  color: black; }
+  color: white;
+  position: relative; }
+
+.uppercase {
+  text-transform: uppercase;
+  color: red; }
+
+.contact {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex: 0 0 50%;
+      flex: 0 0 50%; }
