@@ -83,6 +83,7 @@ add_filter( 'stylesheet_uri', 'red_starter_minified_css', 10, 2 );
  * Enqueue scripts and styles.
  */
 function red_starter_scripts() {
+	wp_enqueue_style( 'tent-style', get_stylesheet_uri());
 	wp_enqueue_script( 'font-awsome-cdn','https://use.fontawesome.com/3a9bf8ab8c.js', array(), '4.7.0');
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
 	
@@ -104,3 +105,4 @@ require get_template_directory() . '/inc/template-tags.php';
  */
 
 require get_template_directory() . '/inc/extras.php';
+

@@ -3,11 +3,12 @@
 * Template Name: About Page
 */
 
-
+get_header();
+?>
 <div id="primary" class="content-area">
 <main id="main" class="site-main" role="main">
 
-<article id="post"-<?php the_ID(); ?>" <?php post_class(); ?>>"
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <header class="entry-header custom-hero">
   <div class="container">
     <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
@@ -25,5 +26,6 @@
 </article>
 </main><!--#main -->
 </div><!--#primary -->
-echo CFS()->get( 'first_name' ); ?>
+
+
 <?php get_footer(); ?>

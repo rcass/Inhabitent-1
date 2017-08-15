@@ -711,7 +711,11 @@ object {
 --------------------------------------------------------------*/
 /* Front page */
 body, html {
-  background: url(../../images/home-hero.jpg); }
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url(../../images/home-hero.jpg) no-repeat top;
+  background-size: cover,cover;
+  -ms-flex-pack: center;
+      justify-content: center;
+  height: 100vh; }
 
 /*--------------------------------------------------------------
 # Footer
@@ -721,7 +725,10 @@ footer {
   display: flex;
   width: 100%;
   -ms-flex-direction: row;
-      flex-direction: row; }
+      flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px; }
 
 .site-footer {
   background: url("../../images/dark-wood.png");
@@ -730,10 +737,11 @@ footer {
   height: 45%;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
   color: white;
-  position: relative; }
+  position: relative;
+  top: 205px; }
 
 .uppercase {
   text-transform: uppercase;
@@ -744,5 +752,17 @@ footer {
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  -ms-flex: 0 0 50%;
-      flex: 0 0 50%; }
+  -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+  -ms-flex-align: start;
+      align-items: flex-start; }
+
+.business {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+  -ms-flex-direction: column;
+      flex-direction: column; }

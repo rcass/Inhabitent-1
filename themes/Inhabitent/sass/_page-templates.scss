@@ -4,5 +4,9 @@
 
 /* Front page */
 body, html {
-  background:url(../../images/home-hero.jpg);
+  background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url(../../images/home-hero.jpg) no-repeat top;
+  background-size: cover,cover;
+  justify-content: center;
+  height: 100vh;
+  
 }
