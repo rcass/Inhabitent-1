@@ -709,18 +709,20 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+body, html {
+  background-color: red; }
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 footer {
-  display: -ms-flexbox;
-  display: flex;
   width: 100%;
   -ms-flex-direction: row;
       flex-direction: row;
   margin-left: auto;
   margin-right: auto;
-  width: 1120px; }
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
 
 .site-info {
   background: url("../../images/dark-wood.png");
@@ -744,8 +746,8 @@ footer {
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  -ms-flex: 0 0 25%;
-      flex: 0 0 25%;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
   -ms-flex-align: start;
       align-items: flex-start; }
 
@@ -757,4 +759,6 @@ footer {
   -ms-flex: 0 0 25%;
       flex: 0 0 25%;
   -ms-flex-direction: column;
-      flex-direction: column; }
+      flex-direction: column;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%; }

@@ -16,8 +16,10 @@
 
 			</div><!-- #content -->
 
-			<footer id="colophon" class="site-footer" role="contentinfo">
-				<div class="site-info site-container">
+			<footer id="colophon" class="site-footer" role="content-info"> //Main footer ------------->no flex
+
+				<div class="site-info site-container">                //--------------->parent flex container
+
 					<div id="footer-sidebar" class="secondary">
 						<div id="footer-sidebar1" class="footer-sidebar1">
 							<?php
