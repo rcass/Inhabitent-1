@@ -16,9 +16,9 @@
 
 			</div><!-- #content -->
 
-			<footer id="colophon" class="site-footer" role="content-info"> //Main footer ------------->no flex
+			<footer id="colophon" class="site-footer" role="content-info">
 
-				<div class="site-info site-container">                //--------------->parent flex container
+				<div class="site-info site-container">              
 
 					<div id="footer-sidebar" class="secondary">
 						<div id="footer-sidebar1" class="footer-sidebar1">

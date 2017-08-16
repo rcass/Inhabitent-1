@@ -646,6 +646,45 @@ a {
 .bypostauthor {
   display: block; }
 
+.about {
+  color: green; }
+
+.page-template-about .entry-header {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url(http://localhost:8888/project_four/wp-content/uploads/2017/08/gas-stove-3.jpg) no-repeat center bottom;
+  background-size: cover, cover;
+  height: 100vh;
+  width: 100vw; }
+
+.journal-header {
+  position: relative; }
+
+.journal-title {
+  background-color: #248a83;
+  color: #fff;
+  font-size: 33.6px;
+  font-size: 2.1rem;
+  left: 0;
+  padding: .75rem 1.5rem;
+  position: absolute;
+  margin-top: 2.25rem;
+  max-width: 75%;
+  top: 0; }
+
+.journal-meta {
+  background-color: #248a83;
+  right: 159px;
+  color: #fff;
+  display: inline-block;
+  font-family: Novecento Sans Web,sans-serif;
+  padding: 1.00005rem 1.5rem;
+  position: absolute;
+  bottom: 7px;
+  text-transform: uppercase; }
+
+.journal-title a {
+  text-decoration: none;
+  color: white; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -709,9 +748,6 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
-body, html {
-  background-color: red; }
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
