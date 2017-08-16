@@ -65,6 +65,9 @@
 					</div>
 					<p class="credit"> Copyright &copy; 2017 Inhabitent</p>
 				</div><!-- .site-info -->
+				<div class="inhabitent">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/inhabitent-logo-text-dark.svg">
+				</div>
 			</footer><!-- #colophon -->
 		</div><!-- #page -->
 

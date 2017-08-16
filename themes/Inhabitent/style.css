@@ -709,14 +709,6 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
-/* Front page */
-body, html {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url(../../images/home-hero.jpg) no-repeat top;
-  background-size: cover,cover;
-  -ms-flex-pack: center;
-      justify-content: center;
-  height: 100vh; }
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -730,7 +722,7 @@ footer {
   margin-right: auto;
   width: 1120px; }
 
-.site-footer {
+.site-info {
   background: url("../../images/dark-wood.png");
   bottom: 0;
   width: 100%;
