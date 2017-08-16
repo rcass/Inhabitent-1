@@ -16,7 +16,7 @@ get_header();
 </header>
  <div class="container">
    <div class="about">
-   <p>abouaboutaboutabout</p>
+   <p>About</p>
    </div>
    <div class="entry-content">
      <h2>Our Story</h2>
