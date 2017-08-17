@@ -84,3 +84,22 @@
   font-weight: lighter;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Novecentosanswide-Normal';
+  src: url('Novecentosanswide-Normal.eot');
+  src: url('Novecentosanswide-Normal.woff2') format('woff2'),
+       url('Novecentosanswide-Normal.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Novecentosanswide-DemiBold';
+  src: url('Novecentosanswide-DemiBold.eot');
+  src: url('Novecentosanswide-DemiBold.woff2') format('woff2'),
+       url('Novecentosanswide-DemiBold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
