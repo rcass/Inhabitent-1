@@ -969,8 +969,16 @@ h1#shopZero {
 
 #shopZero {
   position: absolute;
-  left: 381px;
+  left: 500px;
   bottom: 10px; }
+
+.home .latest-entries ul {
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  list-style-type: none;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-left: 0; }
 
 /*--------------------------------------------------------------
 # Footer

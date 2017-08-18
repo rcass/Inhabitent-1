@@ -54,3 +54,7 @@
 					Copyright &copy; 2017 Inhabitent</div>
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
+
+		<?php wp_footer(); ?>
+</body>
+</html>
