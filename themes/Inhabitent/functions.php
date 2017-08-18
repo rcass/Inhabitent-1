@@ -114,4 +114,4 @@ require get_template_directory() . '/inc/extras.php';
 // 	}
 // 	return $title;
 // }
-// add-filter( 'get_the_archive_title', 'my_theme_archive_title')
+// add_filter( 'get_the_archive_title', 'my_theme_archive_title')

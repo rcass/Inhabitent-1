@@ -17,6 +17,16 @@ get_header(); ?>
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
+
+<?php
+$terms = get_terms( array(
+    'taxonomy' => 'product-type',
+    'hide_empty' => false,
+) );
+?>
+
+
+
 			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>
