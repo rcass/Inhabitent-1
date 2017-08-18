@@ -2,3 +2,126 @@
 # Page Templates
 --------------------------------------------------------------*/
 
+#main-image{
+  align-items: center;
+  // background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url(../../images/home-hero.jpg) no-repeat top;
+  background: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)),url(../../images/inhabitent-logo-full.svg) no-repeat center 180px,url(../../images/home-hero.jpg) repeat-x top;
+  background-size: cover,150px 369px,cover;
+  height: 600px;
+  position: relative;
+  top:-153px;
+  width: 100vw;
+}
+h1#shopZero {
+  text-align: center;
+}
+.shopStuff {
+justify-content: space-between;
+text-align: center;
+display: flex;
+width: 100vw;
+}
+#doOne {
+  border: 1px solid #e1e1e1;
+  border-top-width: 5px;
+  flex: 0 1 23.5%;
+  max-width: 23.5%;
+  padding: .75rem;
+}
+#eatTwo {
+  border: 1px solid #e1e1e1;
+  border-top-width: 5px;
+  flex: 0 1 23.5%;
+  max-width: 23.5%;
+  padding: .75rem;
+}
+#sleepThree {
+  border: 1px solid #e1e1e1;
+  border-top-width: 5px;
+  flex: 0 1 23.5%;
+  max-width: 23.5%;
+  padding: .75rem;
+}
+#wearFour {
+  border: 1px solid #e1e1e1;
+  border-top-width: 5px;
+  flex: 0 1 23.5%;
+  max-width: 23.5%;
+  padding: .75rem;
+}
+#sleepThree img {
+  height: 70px;
+  width: 70px;
+}
+#doOne img {
+  height: 70px;
+  width: 70px;
+}
+#eatTwo img {
+  height: 70px;
+  width: 70px;
+}
+#wearFour img {
+  height: 70px;
+  width: 70px;
+}
+.shopButton {
+  background: #248a83;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  cursor: pointer;
+  font-family: Novecento Sans Web,sans-serif;
+  font-size: 14.4px;
+  font-size: .9rem;
+  line-height: 1;
+  padding: .75rem 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.category-item {
+  border: 1px solid #e1e1e1;
+  border-top-width: 5px;
+  flex: 0 1 23.5%;
+  max-width: 23.5%;
+  padding: .75rem;
+  display: inline-block;
+  padding: .75rem;
+}
+.shopStuff {
+    width: 100vw;
+}
+.category-item img {
+  height: 70px;
+  width: 70px;
+}
+#shopZero {
+  text-align: center;
+}
+
+#shopZero {
+  position: absolute;
+  left: 381px;
+  bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+//   background-size: cover,cover;
+//   display: flex;
+//   justify-content: center;
+//   height: 100vh;
+//   flex-direction: column;
+//   position: relative;
+// }
+// #main-image {
+//   background:url("http://tent.academy.red/wp-content/themes/inhabitent/images/inhabitent-logo-full.svg");
+//   position: absolute;
+// }

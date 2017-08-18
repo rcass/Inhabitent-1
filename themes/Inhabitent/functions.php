@@ -106,3 +106,12 @@ require get_template_directory() . '/inc/template-tags.php';
 
 require get_template_directory() . '/inc/extras.php';
 
+// function my_theme_archive_title( $title) {
+// 	if (is_post_type_archive('product')) {
+// 		$title ="shop Stuff";
+// 	}elseif (is_tax) {
+// 		$title=single_term_title('', false);
+// 	}
+// 	return $title;
+// }
+// add-filter( 'get_the_archive_title', 'my_theme_archive_title')
