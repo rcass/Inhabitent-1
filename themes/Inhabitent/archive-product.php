@@ -19,12 +19,20 @@ get_header(); ?>
 				?>
 
 <?php
-$terms = get_terms( array(
-    'taxonomy' => 'product-type',
-    'hide_empty' => false,
-) );
+//$terms = get_terms( array(
+ //   'taxonomy' => 'product-type',
+  //  'hide_empty' => false,
+//) );
 ?>
-
+<?php
+   $args = array( 'post_type' => 'product-type' );
+   $product_terms = get_terms( $args ); // returns an array of posts
+?>
+<div class='product-type-shop-stuff'>
+	<?php foreach ( $product_terms as $term ):; ?>
+		<a class='shop-stuff-links'><?php echo $term->name ?></a>
+	<?php endforeach; wp_reset_postdata(); ?>
+</div>
 
 
 			</header><!-- .page-header -->

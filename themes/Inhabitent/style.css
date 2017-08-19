@@ -749,9 +749,7 @@ p.site-description {
 .site-content {
   width: 100%;
   display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column; }
+  display: flex; }
 
 div#primary {
   width: 65%; }
@@ -976,6 +974,16 @@ h1#shopZero {
   margin-bottom: 0;
   margin-left: 0;
   padding-left: 0; }
+
+.story-wrapper a {
+  text-decoration: none; }
+
+.clearfix {
+  list-style: none; }
+
+.adventures.container {
+  display: -ms-flexbox;
+  display: flex; }
 
 /*--------------------------------------------------------------
 # Footer
