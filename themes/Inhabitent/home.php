@@ -1,14 +1,14 @@
 <?php
 /**
- * The main template file.
+ * The main blog template file.
  *
- * @package RED_Starter_Theme
+ * @package Inhabitent_Theme
  */
 
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main journal" role="main">
+		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
 
@@ -21,7 +21,7 @@ get_header(); ?>
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'template-parts/journal' ); ?>
+				<?php get_template_part( 'template-parts/content' ); ?>
 
 			<?php endwhile; ?>
 

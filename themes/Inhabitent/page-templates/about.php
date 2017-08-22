@@ -1,34 +1,30 @@
 <?php
 /**
-* Template Name: About Page
-*/
-
-get_header();
+ * Template Name: About Page
+ *
+ * @package Inhabitent
+ */
+ 
+get_header(); 
 ?>
-<div id="primary" class="content-area">
-<main id="main" class="site-main" role="main">
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-<header class="entry-header custom-hero">
-  <div class="container">
-    <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-</div>
-</header>
- <div class="container">
-   <div class="about">
-   <p>About</p>
-   </div>
-   <div class="entry-content">
-     <h2>Our Story</h2>
-     <?php echo CFS()->get( 'about_our_story' ); ?>
+	<div id="primary" class="about-content-area">
+		<main id="main" class="about-page" role="main">
 
-     <h2>Our Team</h2>
-     <?php echo CFS()->get( 'about_our_team' ); ?>
-</div>
-</div>
-</article>
-</main><!--#main -->
-</div><!--#primary -->
+                  <header class="entry-header custom-header">
+                        <h1 class="about-header-title"><?php the_title(); ?></h1>
+                  </header><!-- .entry-header -->
+                  
+            <div class ="about-content">     
+                  <h2> Our Story </h2>
+                  <?php echo CFS()->get( 'about_our_story' ); ?>
+
+                  <h2> Our Team </h2>
+                  <?php echo CFS()->get( 'about_our_team' ); ?>
+
+            </div>
+		</main><!-- #main -->
+	</div><!-- #primary -->
 
 
 <?php get_footer(); ?>

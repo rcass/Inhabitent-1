@@ -1,9 +1,9 @@
 /*!
-Theme Name: RED Starter Theme
+Theme Name: Inhabitent Theme
 Theme URI: http://underscores.me/
-Author: RED Academy
+Author: mrsawyer
 Author URI: http://www.redacademy.com
-Description: A WordPress starter theme for RED Academy students.
+Description: Inhabitent theme for an online store for sweet hipsters to buy "unique" things
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -44,7 +44,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Page Templates
 	## Front page
 --------------------------------------------------------------*/
-
 // Imported but not included in the stylesheet.
 
 @import "variables";
@@ -61,8 +60,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "modules";
 @import "widgets";
 @import "content";
-@import "journal";
 @import "media";
 @import "page-templates";
+@import "header";
 @import "footer";
+@import "selectric";
+
 
