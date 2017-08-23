@@ -106,15 +106,7 @@ function red_starter_scripts() {
 	wp_enqueue_script( 'font-awesome-cdn', 'https://use.fontawesome.com/65d9723211.js', array(), '4.7' );
 
 	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true );
-// function my_theme_archive_title( $title) {
-// 	if (is_post_type_archive('product')) {
-// 		$title ="shop Stuff";
-// 	}elseif (is_tax) {
-// 		$title=single_term_title('', false);
-// 	}
-// 	return $title;
-// }
-// add_filter( 'get_the_archive_title', 'my_theme_archive_title')
+
 	wp_enqueue_script( 'jquery');
 
 	wp_enqueue_script( 'inhabitent_search-bar-slide', get_template_directory_uri() . '/build/js/search-bar-slide.min.js', array( 'jquery' ), false, true );

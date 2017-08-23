@@ -9,6 +9,9 @@
     height: 100%;
 }
 
+
+/* Posts and pages */
+
 .sticky {
 	display: block;
 }
@@ -105,10 +108,14 @@
 
 }
 
+/* Asides */
+
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
 	display: none;
 }
+
+/* Comments */
 
 .comment-content a {
 	word-wrap: break-word;
@@ -125,7 +132,10 @@
 .comments-area{
     padding: 0 50px 30px 150px;
 }
- 
+
+/* Products Page */
+
+
 .product-content-area{
     .type-products{
         display: flex;
@@ -174,40 +184,3 @@
     }
 }
 
-.front-page-header{
-    background:
-            linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
-            url("../../images/home-hero.jpg") no-repeat center top;
-    background-size: cover, cover;
-}
-
-.front-page-sections{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    width: $site-width;
-}
-
-.entry-content .general-button{
-    width: 20%;
-    padding: 8px;
-}
-.general-button{
-    margin: 10px;
-    background: white;
-    text-align: center;
-    border: 1px solid black;
-    padding: 5px;
-    width: 37%;
-    a {
-        color: black;
-    }
-}
-.general-button:hover{
-    background: $color_brand_nav;
-    border: none;
-    a {
-        color:white;
-    }
-}

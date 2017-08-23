@@ -1,16 +1,16 @@
 <?php
  /**
  *
- * @package   [Inhabitent] Functionality
- * @author    Your Name <mp.paydarfar@gmail.com>
+ * @package   Inhabitent Functionality
+ * @author    Montana Sawyer <montanarsawyer@gmail.com>
  * @license   GPL-2.0+
- * @copyright 2017 Inhabitent
+ * @copyright 2017 mrsawyer
  *
  * @wordpress-plugin
- * Plugin Name: [Inhabitent] Functionality
+ * Plugin Name: Inhabitent Functionality
  * Description: This very important plugin contains all of the core functionality for this website so that it remains theme-independent.
  * Version:     1.0.0
- * Author:      Alex Paydarfar
+ * Author:      Montana Sawyer
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  */
@@ -48,3 +48,5 @@ include_once( RF_DIR . '/lib/functions/post-types.php' );
  * @since 1.0.0
  */
 include_once( RF_DIR . '/lib/functions/taxonomies.php' );
+
+

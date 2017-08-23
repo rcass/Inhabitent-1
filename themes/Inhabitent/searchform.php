@@ -1,8 +1,6 @@
 <form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
 	<fieldset class="search-form-fieldset">
-		<label>
 		<button class="search-submit">
-    </label>
 			<span class="icon-search" aria-hidden="true">
 				<i class="fa fa-search"></i>
 			</span>

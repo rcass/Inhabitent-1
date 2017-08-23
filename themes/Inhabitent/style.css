@@ -313,7 +313,7 @@ pre {
   padding: 1.6rem; }
 
 code, kbd, tt, var {
-  font-family: Monaco, Consolas, "serif", "sans-serif", monospace;
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
   font-size: 15px;
   font-size: 0.9375rem; }
 
@@ -384,7 +384,9 @@ dd {
 
 img {
   height: auto;
-  max-width: 100%; }
+  /* Make sure images are scaled correctly. */
+  max-width: 100%;
+  /* Adhere to container width. */ }
 
 table {
   margin: 0 0 1.5rem;
@@ -452,8 +454,7 @@ input[type="search"] {
 
 textarea {
   padding-left: 3px;
-  width: 100%;
-  background-color: green; }
+  width: 100%; }
 
 input[type=checkbox]:checked:before {
   color: #248A81; }
@@ -462,20 +463,6 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
   border-color: rgba(229, 103, 23, 0.8);
   box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(229, 103, 23, 0.6);
   outline: 0 none; }
-
-input[type=submit] {
-  background: #248a83;
-  border: none;
-  border-radius: 0;
-  color: #fff;
-  cursor: pointer;
-  font-family: Novecento Sans Web,sans-serif;
-  font-size: 14.4px;
-  font-size: .9rem;
-  line-height: 1;
-  padding: .75rem 1.5rem;
-  text-decoration: none;
-  text-transform: uppercase; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -619,7 +606,8 @@ a {
 --------------------------------------------------------------*/
 .widget {
   margin: 0 0 1.5rem;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  /* Make sure select elements fit in widgets. */ }
   .widget select {
     max-width: 100%; }
 
@@ -634,9 +622,11 @@ a {
   text-transform: uppercase;
   letter-spacing: 2px; }
 
+/* Search widget. */
 .widget_search .search-submit {
   display: none; }
 
+/* Contact Us widget */
 .contact-info {
   display: -ms-flexbox;
   display: flex;
@@ -663,6 +653,7 @@ a {
 .footer-sidebar1 a:hover {
   text-decoration: underline; }
 
+/* Business Hours widget */
 .day-of-week {
   font-weight: bold; }
 
@@ -677,6 +668,7 @@ a {
   display: flex;
   height: 100%; }
 
+/* Posts and pages */
 .sticky {
   display: block; }
 
@@ -752,10 +744,12 @@ a {
   right: 0;
   padding: 5px 15px; }
 
+/* Asides */
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
   display: none; }
 
+/* Comments */
 .comment-content a {
   word-wrap: break-word; }
 
@@ -769,6 +763,7 @@ a {
 .comments-area {
   padding: 0 50px 30px 150px; }
 
+/* Products Page */
 .product-content-area .type-products {
   display: -ms-flexbox;
   display: flex; }
@@ -806,40 +801,6 @@ a {
     margin: 5px; }
     .product-content-area .entry-content .general-button i {
       width: 30%; }
-
-.front-page-header {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url("../../images/home-hero.jpg") no-repeat center top;
-  background-size: cover, cover; }
-
-.front-page-sections {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-align: center;
-      align-items: center;
-  margin: 0 auto;
-  width: 1120px; }
-
-.entry-content .general-button {
-  width: 20%;
-  padding: 8px; }
-
-.general-button {
-  margin: 10px;
-  background: white;
-  text-align: center;
-  border: 1px solid black;
-  padding: 5px;
-  width: 37%; }
-  .general-button a {
-    color: black; }
-
-.general-button:hover {
-  background: #248A83;
-  border: none; }
-  .general-button:hover a {
-    color: white; }
 
 /*--------------------------------------------------------------
 # Media
@@ -930,6 +891,41 @@ object {
 
 .search-content-area {
   padding: 50px 50px 0 150px; }
+
+/* Front Page */
+.front-page-header {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url("../../images/home-hero.jpg") no-repeat center top;
+  background-size: cover, cover; }
+
+.front-page-sections {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  margin: 0 auto;
+  width: 1120px; }
+
+.entry-content .general-button {
+  width: 20%;
+  padding: 8px; }
+
+.general-button {
+  margin: 10px;
+  background: white;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+  width: 37%; }
+  .general-button a {
+    color: black; }
+
+.general-button:hover {
+  background: #248A83;
+  border: none; }
+  .general-button:hover a {
+    color: white; }
 
 .latest-journal {
   display: block;
@@ -1119,6 +1115,7 @@ object {
   width: 100%;
   height: 100%; }
 
+/* Sidebar */
 .widget-area {
   -ms-flex: 0 0 32%;
       flex: 0 0 32%;
@@ -1127,6 +1124,7 @@ object {
     text-transform: uppercase;
     color: #2f1339; }
 
+/* Shop */
 .shop-page-header {
   font-family: "novecento", serif;
   padding: 3% 0; }
@@ -1210,6 +1208,7 @@ object {
 .taxonomy-description {
   text-align: center; }
 
+/* About */
 .about-header-title {
   color: white;
   font-size: 3rem; }
@@ -1223,6 +1222,7 @@ object {
     text-transform: uppercase;
     color: #2f1339; }
 
+/* Contact Us */
 .type-page {
   padding: 0 50px 30px 150px; }
   .type-page iframe {
@@ -1252,6 +1252,7 @@ object {
     border-radius: 0;
     text-shadow: none; }
 
+/* Adventure Page */
 .adventure-content {
   max-width: 800px;
   width: 100%;
@@ -1456,67 +1457,6 @@ input[type=search]:focus {
       text-align: center;
       -ms-flex-item-align: end;
           align-self: flex-end; }
-
-.site-footer {
-  background: url(../../images/dark-wood.png);
-  background-size: 512px 512px;
-  color: #fff; }
-
-.site-footer a {
-  color: #fff;
-  text-decoration: none; }
-
-.site-footer a:hover {
-  text-decoration: underline; }
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi) {
-  .site-footer {
-    background: url(../../images/dark-wood@2x.png);
-    background-size: 512px 512px; } }
-
-.footer-blocks {
-  display: -ms-flexbox;
-  display: flex; }
-
-.footer-blocks h3 {
-  color: #d99054;
-  font-size: 19.2px;
-  font-size: 1.2rem;
-  margin-bottom: .75rem;
-  text-transform: uppercase; }
-
-.footer-blocks p {
-  margin-bottom: .5rem; }
-
-.footer-blocks i {
-  font-size: 20px;
-  font-size: 1.25rem;
-  margin-right: .5rem; }
-
-.footer-blocks .day-of-week {
-  font-weight: 700; }
-
-.footer-block-item {
-  margin: 3rem 0;
-  padding-right: 1.5rem;
-  width: 25%; }
-
-.footer-block-item:last-child {
-  padding-right: 0;
-  width: 50%; }
-
-.footer-block-item .text-logo {
-  margin-top: 1rem;
-  text-align: right; }
-
-.footer-block-item .text-logo img {
-  max-width: 50%; }
-
-.site-info {
-  font-family: Novecento Sans Web, sans-serif;
-  padding: 1.5rem 0;
-  text-align: center;
-  text-transform: uppercase; }
 
 /*======================================
   Selectric v1.11.1

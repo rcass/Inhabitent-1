@@ -1,24 +1,24 @@
 <?php
 /**
- * Biz Hours Widget
+ * RED WordPress Widget Boilerplate
  *
  * The RED Widget Boilerplate is an organized, maintainable boilerplate for building widgets using WordPress best practices.
  *
  * Lightly forked from the WordPress Widget Boilerplate by @tommcfarlin.
  *
- * @package   Tent_Biz_Hours
- * @author    Alex <mp.paydarfar@gmail.com>
+ * @package   Business_Hours_Widget
+ * @author    Montana Sawyer <montanarsawyer@gmail.com>
  * @license   GPL-2.0+
  * @link      http://example.com
- * @copyright 2017 RED
+ * @copyright 2017 mrsawyer
  *
  * @wordpress-plugin
- * Plugin Name:       @Biz Hours Widget
- * Plugin URI:        @http://example.com
- * Description:       @Red Widget Boilerplate
+ * Plugin Name:       Business Hours Widget
+ * Plugin URI:        
+ * Description:       A business hours widget
  * Version:           1.0.0
- * Author:            @Alex
- * Author URI:        @https://github.com
+ * Author:            Montana Sawyer
+ * Author URI:        
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  */
@@ -28,19 +28,17 @@ if ( ! defined ( 'ABSPATH' ) ) {
 	exit;
 }
 
-// TODO: change 'Widget_Name' to the name of your plugin
-class Tent_Biz_Hours extends WP_Widget {
+class Business_Hours_Widget extends WP_Widget {
 
     /**
-     * @TODO - Rename "widget-name" to the name your your widget
-     *
-     * Unique identifier for your widget.
-     *
-     * @since    1.0.0
-     *
-     * @var      string
-     */
-    protected $widget_slug = 'tent_biz_hours';
+	 *
+	 * Unique identifier for your widget.
+	 *
+	 * @since    1.0.0
+	 *
+	 * @var      string
+	 */
+    protected $widget_slug = 'business-hours-widget';
 
 	/*--------------------------------------------------*/
 	/* Constructor
@@ -49,15 +47,14 @@ class Tent_Biz_Hours extends WP_Widget {
 	/**
 	 * Specifies the classname and description, and instantiates the widget.
 	 */
-	public function __construct() {
+public function __construct() {
 
-		// TODO: update description
 		parent::__construct(
 			$this->get_widget_slug(),
-			'Inhabitent Business Hours',
+			'Business Hours Widget',
 			array(
 				'classname'  => $this->get_widget_slug().'-class',
-				'description' => "Add the store's business hours."
+				'description' => ' A business hours widget'
 			)
 		);
 
@@ -97,12 +94,10 @@ class Tent_Biz_Hours extends WP_Widget {
 		$widget_string = $before_widget;
 
 		// Manipulate the widget's values based on their input fields
-		$title = empty( $instance['title'] ) ? '' : apply_filters( 'widget_title', $instance['title'] );		
-		$monday_friday = empty( $instance['monday_friday'] ) ? '' : apply_filters( 'widget_title', $instance['monday_friday'] );
-		$saturday = empty( $instance['saturday'] ) ? '' : apply_filters( 'widget_title', $instance['saturday'] );
-		$sunday = empty( $instance['sunday'] ) ? '' : apply_filters( 'widget_title', $instance['sunday'] );
-		
-		
+		$title = empty( $instance['title'] ) ? '' : apply_filters( 'widget_title', $instance['title'] );
+		$monday_friday = empty( $instance['monday_friday'] ) ? '' : apply_filters( 'widget_monday_friday', $instance['monday_friday'] );
+		$saturday = empty( $instance['saturday'] ) ? '' : apply_filters( 'widget_saturday', $instance['saturday'] );
+		$sunday = empty( $instance['sunday'] ) ? '' : apply_filters( 'widget_sunday', $instance['sunday'] );
 
 		ob_start();
 
@@ -134,8 +129,6 @@ class Tent_Biz_Hours extends WP_Widget {
 		$instance['monday_friday'] = strip_tags( $new_instance['monday_friday'] );
 		$instance['saturday'] = strip_tags( $new_instance['saturday'] );
 		$instance['sunday'] = strip_tags( $new_instance['sunday'] );
-		
-		// TODO: Here is where you update the rest of your widget's old values with the new, incoming values
 
 		return $instance;
 
@@ -148,14 +141,13 @@ class Tent_Biz_Hours extends WP_Widget {
 	 */
 	public function form( $instance ) {
 
-		// TODO: Define default values for your variables, create empty value if no default
 		$instance = wp_parse_args(
 			(array) $instance,
 			array(
-				'title'         => 'Business Hours',
-				'monday_friday' => '',
-				'saturday'      =>'',
-				'sunday'        =>''
+				'title' => 'Business Hours Widget',
+				'monday_friday'=> '',
+				'saturday'=> '',
+				'sunday'=> 'closed',
 			)
 		);
 
@@ -163,7 +155,6 @@ class Tent_Biz_Hours extends WP_Widget {
 		$monday_friday = strip_tags( $instance['monday_friday'] );
 		$saturday = strip_tags( $instance['saturday'] );
 		$sunday = strip_tags( $instance['sunday'] );
-		// TODO: Store the rest of values of the widget in their own variables
 
 		// Display the admin form
 		include( plugin_dir_path( __FILE__ ) . 'views/admin.php' );
@@ -172,7 +163,7 @@ class Tent_Biz_Hours extends WP_Widget {
 
 } // end class
 
-// TODO: Remember to change 'Widget_Name' to match the class name definition
+
 add_action( 'widgets_init', function(){
-     register_widget( 'Tent_Biz_Hours' );
+    register_widget( 'Business_Hours_Widget' );
 });

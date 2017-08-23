@@ -26,7 +26,7 @@ get_header();
             foreach ( $terms as $term ) : ?>
                 <div class="recent-product-entry">
                     <img  class="product-icons" src="<?php echo get_template_directory_uri(); ?>/images/icons/<?php echo $term->slug ?>.svg" />
-                    <!-- <p class = "front-type-description"><?php echo $term->description ?></p> -->
+                    <p class = "front-type-description"><?php echo $term->description ?></p>
                     <p class="special-button"><a href="<?php echo get_term_link( $term->slug, 'product_type' );?>"><?php echo $term->name ?></a></p>
                 </div>
             <?php endforeach; wp_reset_postdata(); ?>
@@ -75,7 +75,7 @@ get_header();
             'post_type' => 'adventures',
         );
 
-        $adventure_posts = get_posts( $args ); 
+        $adventure_posts = get_posts( $args ); // returns an array of posts
 
             foreach ( $adventure_posts as $post ) : setup_postdata( $post ); ?>
             <div class="recent-adventures">

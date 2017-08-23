@@ -1,7 +1,10 @@
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+
+
 .home, .page-template-about, .adventures-template-default{
+
     .site-header.custom-site-header{
         background-color: hsla(0,0%,100%,0);
         border-bottom: none;
@@ -28,12 +31,56 @@
             color: $color_brand_link;
         } 
 }
+
 .search-page-header{
     border-bottom: 1px solid $color_brand_border; 
 }
 .search-content-area{
     padding: 50px 50px 0 150px;
 }
+
+
+/* Front Page */
+.front-page-header{
+    background:
+            linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
+            url("../../images/home-hero.jpg") no-repeat center top;
+    background-size: cover, cover;
+}
+
+.front-page-sections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: $site-width;
+}
+
+.entry-content .general-button{
+    width: 20%;
+    padding: 8px;
+}
+
+
+.general-button{
+    margin: 10px;
+    background: white;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    width: 37%;
+    a {
+        color: black;
+    }
+}
+.general-button:hover{
+    background: $color_brand_nav;
+    border: none;
+    a {
+        color:white;
+    }
+}
+
 .latest-journal{
     display: block;
     padding: 20px;
@@ -73,10 +120,12 @@
         }
     }
 }
+
 .different-product-types{
     display: flex;
     flex-direction: row;
 }
+
 .front-page-subtitle  {
     font-family: $font_family-header, serif;
     text-transform: uppercase;
@@ -84,6 +133,8 @@
     font-weight: normal;
     font-style: normal;
 }
+
+
 .recent-product-entry{
     display: flex;
     flex-direction: column;
@@ -105,6 +156,7 @@
             font-family: $font_family-header, serif;
         }
     }
+
     .special-button:hover{
         background: #19605b;
     }
@@ -112,9 +164,12 @@
         width: 25%;
     }
 }
+
 .recent-product-entry:hover{
     border-color: $color_brand_outline;
 }
+
+
 .adventures-container{
     position: relative;
     color: #fff;
@@ -151,10 +206,12 @@
             color: white; 
         }
     }
+
     .general-button:hover{
         background: $color_brand_nav;
     }
 }
+
 .latest-adventures{
     display: block;
     height: 110vh;
@@ -178,15 +235,18 @@
         }
     }
 }
+
 .adventures-container{
     height:100%;
 }
+
 .most-recent-adventures{
     height: 70%;
 
     .recent-adventures{
         padding: 10px;
     }
+
     .recent-adventures:first-child{
         width: 50%;
         height:100%;
@@ -253,10 +313,18 @@
         } 
     }
 }
+
 .adventure-header-image{
     width: 100%;
     height: 100%;
 }
+
+
+
+
+/* Sidebar */
+
+
 .widget-area{
     flex: 0 0 32%;
     padding: 90px 0  0 50px;
@@ -266,6 +334,11 @@
         color: $color_brand_hover;
     }
 }
+
+
+
+/* Shop */
+
 .shop-page-header{
 
     font-family: $font_family-header, serif;
@@ -277,6 +350,7 @@
         margin: 0;
         letter-spacing: 2px;
     }
+
     .product-types{
         display: flex;
         list-style-type: none;
@@ -291,8 +365,11 @@
             text-transform: uppercase;
             font-size: 1.25em;
         }
+
     }
+
 }
+
 .shop-content-area, .about-content{
     max-width: $site-width;
     width: 100%;
@@ -301,6 +378,7 @@
 .shop-content-area{
     padding-top: 50px;
 }
+
 .custom-header{
     width: 100vw;
     height: 100vh;
@@ -309,6 +387,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .product-archive-section{
     display: flex;
     flex-direction: row;
@@ -347,16 +426,22 @@
         }
     }
 }
+
 .taxonomy-description{
     text-align: center;
 }
+
+/* About */
+
 .about-header-title {
     color: white;
     font-size: 3rem;
 }
+
 .about-content{
     padding: 2% 11%;
     line-height: 1.75em;
+
 
     h2 {
         text-align: center;
@@ -365,6 +450,10 @@
         color: $color_brand_hover;
     }
 }
+
+
+/* Contact Us */
+
 .type-page{
     padding: 0 50px 30px 150px;
 
@@ -372,13 +461,16 @@
         width: 100%;
         height: 300px;
     }
+
     .p3{
         line-height: 1.75em;
     }
+
     h1{
         text-transform: uppercase;
         color: $color_brand_hover;
     }
+
     label{
         text-transform: uppercase;
         font-family: $font_family-header, serif;
@@ -401,6 +493,11 @@
         text-shadow: none;
     }
 }
+
+
+/* Adventure Page */
+
+
 .adventure-content{
     max-width: 800px;
     width: 100%;
@@ -428,6 +525,7 @@
         flex-direction: row;
         }
 }
+
 .adventure-archive-content{
     display: flex;
     flex-direction: row;
@@ -440,11 +538,15 @@
         flex: 0 0 49%;
         margin: 1% 0;
     }
+
     .general-button{
         width: 40%;
         bottom: 25%;
     }
+
 }
+
+
 .error-404{
     padding: 0 50px 30px 150px;
     ul{

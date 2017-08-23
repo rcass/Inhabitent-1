@@ -1,13 +1,17 @@
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
+
 .widget {
 	margin: 0 0 $base__space-unit;
 	margin-bottom: 0;
+
+	/* Make sure select elements fit in widgets. */
 	select {
 		max-width: 100%;
 	}
 }
+
 .widget-area{
 	ul{
 		padding: 0;
@@ -16,15 +20,22 @@
 		line-height: 2rem;
 	}
 }
+
 .widget-title{
     color: $color_brand_outline;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
+
+/* Search widget. */
 .widget_search .search-submit {
 	display: none;
 }
+
+
+/* Contact Us widget */
+
 .contact-info {
 	display: flex;
 	flex-direction: row;
@@ -35,16 +46,19 @@
 		min-width: 30px;
 		align-self: center;
 	}
+
 	.contact-info-details{
 		margin: 0;
 	}
 }
+
 .footer-social-media{
     margin: 0;
     i{
         padding: 0 10px;
     }
 }
+
 .footer-sidebar1 {
 	a{
 		color: white;
@@ -53,6 +67,8 @@
 		text-decoration: underline;
 	}
 }
+
+/* Business Hours widget */
 .day-of-week{
 	font-weight: bold;
 }

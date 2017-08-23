@@ -1,23 +1,27 @@
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
+
 html {
 	box-sizing: border-box;
 	@include font-size(1);
 	width: 100%;
 	height: 100%;
 }
+
 *,
 *:before,
 *:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
 	box-sizing: inherit;
 }
+
 body {
 	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
 	width: 100%;
 	height: 100%;
 	font-size: $font_size-main;
 }
+
 blockquote, q {
 	quotes: "" "";
 
@@ -61,9 +65,10 @@ dd {
 }
 
 img {
-	height: auto; 
-	max-width: 100%; 
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
 }
+
 table {
 	margin: 0 0 $base__space-unit;
 	width: 100%;

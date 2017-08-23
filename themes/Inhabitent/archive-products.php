@@ -15,6 +15,7 @@ get_header(); ?>
 			<header class="shop-page-header">
 				<?php the_archive_title( '<h1 class="shop-page-title">', '</h1>' ); ?>
 					<ul class="product-types">
+
 						<?php 
 
 						$terms = get_terms(array(
@@ -31,6 +32,7 @@ get_header(); ?>
 					</ul>
 			</header><!-- .page-header -->
 
+	
 			<section class ="product-archive-section">
 			<?php while ( have_posts() ) : the_post(); ?>
 			<div class="product-list-entry">
@@ -58,4 +60,6 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+
+
 <?php get_footer(); ?>
